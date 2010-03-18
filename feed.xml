@@ -6,5 +6,20 @@
     <name>http://tinycarts.github.com/</name>
   </author>
 
+  <entry>
+    <title>Lib_Tinycarts_Debug 1.0.0 (stable)</title>
+    <link href="http://tinycarts.github.com//get/Lib_Tinycarts_Debug-1.0.0.tgz" />
+    <id>Lib_Tinycarts_Debug-1.0.0</id>
+    <author>
+      <name>wik</name>
+    </author>
+    <updated>2010-03-18T15:50:41+02:00</updated>
+    <content>
+      Allows you simple logging of variables to the Firebug(FireFox addon) Console via HTTP response headers.
 
+You also need FirePHP(FireFox addon) installed to get this working properly.
+
+It operate in developer mode only and fallback gracefully in production mode, i.e. in order to see any output you have to uncomment  `Mage::setIsDeveloperMode(true)` in your index.php file or as of 1.4 add `SetEnv MAGE_IS_DEVELOPER_MODE ""` into your server environment.
+    </content>
+  </entry>
 </feed>

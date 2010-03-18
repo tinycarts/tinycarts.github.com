@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<p xmlns="http://pear.php.net/dtd/rest.package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.package    http://pear.php.net/dtd/rest.package.xsd">
+<n>Lib_Tinycarts_Debug</n>
+<c>tinycarts.github.com</c>
+<ca xlink:href="/rest/c/Default">Default</ca>
+<l>Open Software License (OSL 3.0)</l>
+<s>FirePHP wrapper for magento - ecommerce platform.</s>
+<d>Allows you simple logging of variables to the Firebug(FireFox addon) Console via HTTP response headers.
+
+You also need FirePHP(FireFox addon) installed to get this working properly.
+
+It operate in developer mode only and fallback gracefully in production mode, i.e. in order to see any output you have to uncomment  `Mage::setIsDeveloperMode(true)` in your index.php file or as of 1.4 add `SetEnv MAGE_IS_DEVELOPER_MODE ""` into your server environment.</d>
+<r xlink:href="/rest/r/lib_tinycarts_debug" />
+</p>
