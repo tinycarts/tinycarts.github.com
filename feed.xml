@@ -21,5 +21,16 @@ You also need FirePHP(FireFox addon) installed to get this working properly.
 
 It operate in developer mode only and fallback gracefully in production mode, i.e. in order to see any output you have to uncomment  `Mage::setIsDeveloperMode(true)` in your index.php file or as of 1.4 add `SetEnv MAGE_IS_DEVELOPER_MODE ""` into your server environment.
     </content>
+  </entry>  <entry>
+    <title>Tinycarts_Catalog 0.1.0 (beta)</title>
+    <link href="http://tinycarts.github.com//get/Tinycarts_Catalog-0.1.0.tgz" />
+    <id>Tinycarts_Catalog-0.1.0</id>
+    <author>
+      <name>wik</name>
+    </author>
+    <updated>2010-03-29T06:38:54+03:00</updated>
+    <content>
+      This package contains additions and enhancement for the standard/core Mage_Catalog module. Such as image quality management via magento backend.
+    </content>
   </entry>
 </feed>

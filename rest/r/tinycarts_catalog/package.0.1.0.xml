@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Tinycarts_Catalog</name>
+ <channel>tinycarts.github.com</channel>
+ <summary>Addon for the core Mage_Catalog module</summary>
+ <description>This package contains additions and enhancement for the standard/core Mage_Catalog module. Such as image quality management via magento backend.</description>
+ <lead>
+  <name>Yevgeniy Viktorov</name>
+  <user>wik</user>
+  <email>wik@rentasite.com.ua</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-03-29</date>
+ <time>06:38:54</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+ <notes>
+added image quality management
+ </notes>
+ <contents>
+  <dir name="/">
+   <dir name="modules">
+    <file md5sum="4ba88823e76822c34ffa29a5ca75f7e7" name="Tinycarts_Catalog.xml" role="mageetc" />
+   </dir> <!-- /modules -->
+   <dir name="Tinycarts">
+    <dir name="Catalog">
+     <dir name="etc">
+      <file md5sum="5627d8629b856a9700fe04dc42c7b1cc" name="config.xml" role="magecommunity" />
+      <file md5sum="29fd59fbdddf4732d66131b2d56cdcd0" name="system.xml" role="magecommunity" />
+     </dir> <!-- /Tinycarts/Catalog/etc -->
+     <dir name="Helper">
+      <file md5sum="c0631fe0c10b811e64eb701718d7f3d8" name="Image.php" role="magecommunity" />
+     </dir> <!-- /Tinycarts/Catalog/Helper -->
+    </dir> <!-- /Tinycarts/Catalog -->
+   </dir> <!-- /Tinycarts -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+    <max>6.0.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.6.2</min>
+   </pearinstaller>
+   <package>
+    <name>Mage_Core_Modules</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>

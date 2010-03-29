@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+  <p xlink:href="/rest/p/tinycarts_catalog">Tinycarts_Catalog</p>
+  <c>tinycarts.github.com</c>
+  <v>0.1.0</v>
+  <st>beta</st>
+  <l>Open Software License (OSL 3.0)</l>
+  <m>wik</m>
+  <s>Addon for the core Mage_Catalog module</s>
+  <d>This package contains additions and enhancement for the standard/core Mage_Catalog module. Such as image quality management via magento backend.</d>
+  <da>2010-03-29 06:38:54</da>
+  <n>
+added image quality management
+ </n>
+  <f>2520</f>
+  <g>http://tinycarts.github.com//get/Tinycarts_Catalog-0.1.0</g>
+  <x xlink:href="package.0.1.0.xml"/>
+</r>
